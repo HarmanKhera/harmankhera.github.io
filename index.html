@@ -10,10 +10,14 @@
 
     <script type = "text/jsx">
 
+        function Header() {
+            return <h1>Biography</h1>;
+        }
+
 
         const domNode = document.getElementById('bio');
         const root = ReactDOM.createRoot(domNode);
-        root.render(<h1>Biography.</h1>);
+        root.render(<Header />);
 
     </script>
     </body>   
