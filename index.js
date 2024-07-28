@@ -1,4 +1,18 @@
-ReactDOM.render(<h1>Hello, everyone!</h1>, document.getElementById("root"))
-//latter is equiv. to document.querySelector('#bio')
+function CreateNavbar() {
+    return(
 
-//ReactDOM.Render("<p>👋 Hi! My name is Harman. I'm...</p>", document.getElementById('bio'))
+        <div>
+        <nav>
+            <h1>Harman's Site</h1>
+            <ul>
+                <li>Bio</li>
+                <li>Projects</li>
+            </ul>   
+        </nav>
+        <small>© Harmandeep Khera. All rights reserved.</small>
+        </div>
+    )
+}
+    
+
+ReactDOM.render(CreateNavbar(),document.getElementById("root"))
