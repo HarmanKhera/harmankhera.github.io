@@ -1,0 +1,16 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; /* To fix the aspect ratio of logo; it might get stretches thanks to justify-content */
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+
+.nav-items > li{
+    padding:10px;
+}
+
+
